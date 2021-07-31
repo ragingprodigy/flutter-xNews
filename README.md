@@ -1,16 +1,12 @@
 # x_news
 
-MaterialUp design - uplabs.com/posts/news-app-ui-41e1eacd-aad4-4c6d-8e83-f5197e2c14b0
+[MaterialUp design](https://www.uplabs.com/posts/news-app-ui-41e1eacd-aad4-4c6d-8e83-f5197e2c14b0)
 
-## Getting Started
+Definitely didn't follow the design to the letter but hey, it's close. Got some ideas for the stacked cards actually.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Output
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Here's what the running app looks like. Just the first page was implemented.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![App Screenshot](screenshot.png)
