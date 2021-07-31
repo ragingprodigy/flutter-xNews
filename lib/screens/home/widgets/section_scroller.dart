@@ -19,11 +19,18 @@ class SectionScroller extends StatelessWidget {
             sections.length,
             (index) => Container(
               margin: EdgeInsets.only(right: 24),
-              child: Text(
-                sections[index],
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: index == 0 ? FontWeight.bold : FontWeight.normal,
+              child: InkWell(
+                borderRadius: BorderRadius.circular(16),
+                onTap: () {},
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    sections[index],
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: index == 0 ? FontWeight.bold : FontWeight.normal,
+                    ),
+                  ),
                 ),
               ),
             ),
