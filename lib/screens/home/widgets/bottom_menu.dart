@@ -6,8 +6,10 @@ class BottomMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(
-        vertical: 12,
+      padding: EdgeInsets.only(
+        top: 12,
+        bottom: 12,
+        right: 32,
       ),
       child: Row(
         children: [
