@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:x_news/screens/home/widgets/bottom_menu.dart';
 import 'package:x_news/screens/home/widgets/menu_button.dart';
+import 'package:x_news/screens/home/widgets/page_title.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               SizedBox(height: 48),
               MenuButton(onTap: () {}),
+              PageTitle("Daily News"),
               Expanded(
                 child: Container(),
               ),
